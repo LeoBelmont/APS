@@ -1,17 +1,6 @@
 import math
-"""
-w = 2 * pi * f
-0.0104 rad/s = 2 * pi * f
-f = 0.0016 Hz
-1 volta = 1 / 0.0016
-1 volta = aprox 625 seg = 10 min e meio
-vm = S / T = 0.0104 = S / 625
-104mm
-pi = C / D
-D = 33mm
-Como o cálculo não envolve os dentes da engrenagem, será arredondado para cima.
-"""
-"Informações do enunciado"
+
+"Dados para cálculo"
 Diametro_da_engrenagem = d = 1.2
 Espessura_da_engrenagem = L = 0.6
 Distancia_dos_mancais = dm = 3
