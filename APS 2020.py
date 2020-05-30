@@ -41,8 +41,8 @@ for counter in range(10):
     Kts = 0.669 * (0.02 ** -0.357)
     Kfs = Kts
     My = Ryb * (dm/2)
-    "Mz é desprezível por ser muito menor que My, então Ma = My"
-    Ma = My
+    Mz = Ftang * (dm / 2)
+    Ma = ((My ** 2) + (Mz ** 2)) ** (1 / 2)
     a = ((16*n)/math.pi)
     b = (1/Sn) * ((4*((Kf*Ma)**2))**(1/2))
     c = (1/Sy) * (3 * ((Kfs * T / 0.59) ** 2)) ** (1/2)
