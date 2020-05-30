@@ -46,7 +46,6 @@ for counter in range(10):
     a = ((16*n)/math.pi)
     b = (1/Sn) * ((4*((Kf*Ma)**2))**(1/2))
     c = (1/Sy) * (3 * ((Kfs * T / 0.59) ** 2)) ** (1/2)
-    #print(f"a= {a}, b= {b}, c= {c}")
     dh.append((a * (b + c)) ** (1/3))
     print(f"d{counter} = {dh[counter]}")
     if counter != 0:
